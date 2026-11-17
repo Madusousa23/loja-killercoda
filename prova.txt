@@ -1,0 +1,38 @@
+PROVA Sistemas Distribuidos
+
+UNIDADE 3/4
+
+1. Tipos de falhas ( rede, hardware, software) - se acontecer precisamos de um FAILOVER.
+
+2. Replicação - se a falha acontever precisamos de um jeito de voltar atrás.
+	- sincrona
+	- assincrona -> Mais complexa
+
+3. FAILOVER e PRIMARY-BACKUP
+	- CHECKPOINT
+	- Trade-off
+
+4. Detecção e Recuperação
+	- Heartbeat
+
+5. Storage e Big Data
+	- HDfS
+	-5vs
+	-mapreduce\Sharding (ferramenta não vai cair)
+
+6. Nuvem e virualização
+	- IAAS \ PAAS \ SAAS
+	-KUBERNETES (Estudar comandos) 
+
+
+prova - Diferença de kubernetes e Docker
+Docker - apenas uma máquina
+kubernetes - containers(pequenas maquinas para um determinado intuito) - pod(Não tem acesso a nada no pod)
+
+
+7. Microsserviços
+	-monólito
+	-microsserviço
+	-serviços independentes
+	-escala seletiva
+não cai: falha bizantina 
